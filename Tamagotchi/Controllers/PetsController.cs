@@ -12,5 +12,12 @@ namespace Tamagotchi.Controllers
       List<Pet> allPets = Pet.GetAll();
       return View(allPets);
     }
+
+    [HttpGet("/pets/new")]
+    public ActionResult New()
+    {
+      return View();
+    }
+    
   }
 }
