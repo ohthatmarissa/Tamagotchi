@@ -18,6 +18,23 @@ namespace Tamagotchi.Controllers
     {
       return View();
     }
-    
+
+    [HttpPost("/pets")]
+    public ActionResult Create(string name)
+    {
+      if(name != null)
+      {
+        Pet myPet = new Pet(name);
+      }
+      return RedirectToAction("Index");
+    }
+
+    [HttpGet("/pets/{id}")]
+    public ActionResult Show(int id)
+    {
+      Pet pet = Pet.Find(id);
+      return View(pet);
+    }
+
   }
 }

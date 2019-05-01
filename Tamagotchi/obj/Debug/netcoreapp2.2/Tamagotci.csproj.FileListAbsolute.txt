@@ -23,3 +23,4 @@
 /Users/Guest/Desktop/Tamagotchi.Solution/Tamagotchi/obj/Debug/netcoreapp2.2/Tamagotci.dll
 /Users/Guest/Desktop/Tamagotchi.Solution/Tamagotchi/obj/Debug/netcoreapp2.2/Tamagotci.pdb
 /Users/Guest/Desktop/Tamagotchi.Solution/Tamagotchi/obj/Debug/netcoreapp2.2/Tamagotci.csproj.CopyComplete
+/Users/Guest/Desktop/Tamagotchi.Solution/Tamagotchi/obj/Debug/netcoreapp2.2/Razor/Views/Pets/Show.g.cshtml.cs
