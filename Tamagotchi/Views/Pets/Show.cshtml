@@ -1,6 +1,25 @@
 <h1>My Pet:</h1>
 
 <h2>@Model.GetName()</h2>
+<h3>Food: @Model.GetFood()</h3>
+<h3>Happiness: @Model.GetHappiness()</h3>
+<h3>Rest: @Model.GetRest()</h3>
+
+<form action="/pets" method="post">
+  <button type="submit" name="button">Feed your pet</button>
+</form>
+
+<form action="/pets" method="post">
+  <button type="submit" name="button">Play with your pet</button>
+</form>
+
+<form action="/pets" method="post">
+  <button type="submit" name="button">Put your pet to bed</button>
+</form>
+
+<form action="/pets" method="post">
+  <button type="submit" name="button">Pass Time</button>
+</form>
 
 <a href="/pets/new">Add another pet</a>
 <a href="/pets">View my pets</a>
